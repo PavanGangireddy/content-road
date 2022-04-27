@@ -11,6 +11,7 @@
     "yarn": ">=1.12.x"
   },
   "scripts": {
+    "dev:practice-prisma": "turbo run dev --scope=@content-road/practice-prisma --no-deps",
     "dev:docs": "turbo run dev --scope=@nextui-org/docs --no-deps",
     "dev:nextui": "turbo run dev --scope=@nextui-org/react --no-deps",
     "sb": "turbo run sb --scope=@nextui-org/react-storybook --no-deps",
@@ -79,6 +80,7 @@
     "prettier": "^2.2.1",
     "prettier-eslint": "^12.0.0",
     "prettier-eslint-cli": "^5.0.1",
+    "prisma": "3.12.0",
     "shelljs": "^0.8.4",
     "ts-node": "^10.1.0",
     "turbo": "^1.0.24",
