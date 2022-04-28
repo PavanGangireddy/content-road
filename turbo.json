@@ -37,6 +37,16 @@
     },
     "sb": {
       "cache": false
+    },
+    "vercel-build":{
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        ".next/**",
+        "dist/**",
+        "lib/**"
+      ]
     }
   }
 }
