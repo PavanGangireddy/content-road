@@ -7,9 +7,9 @@ import {
   CreateLinkMutation,
   Edge,
   PageInfo,
-  Response,
-  User
-} from './types/index';
+  Response
+} from './types/Link';
+import { User } from './types/User';
 
 export const schema = makeSchema({
   types: [Link, LinksQuery, CreateLinkMutation, Edge, PageInfo, Response, User],
