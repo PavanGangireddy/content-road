@@ -1,18 +1,10 @@
 // /graphql/schema.ts
 import { makeSchema } from 'nexus';
 import { join } from 'path';
-import {
-  Link,
-  LinksQuery,
-  CreateLinkMutation,
-  Edge,
-  PageInfo,
-  Response
-} from './types/Link';
-import { User } from './types/User';
+import * as types from './graphTypes';
 
 export const schema = makeSchema({
-  types: [Link, LinksQuery, CreateLinkMutation, Edge, PageInfo, Response, User],
+  types,
   outputs: {
     typegen: join(
       process.cwd(),
