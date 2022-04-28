@@ -9,7 +9,7 @@ import {
   PageInfo,
   Response,
   User
-} from './types';
+} from './types/index';
 
 export const schema = makeSchema({
   types: [Link, LinksQuery, CreateLinkMutation, Edge, PageInfo, Response, User],
