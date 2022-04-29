@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "PRISMA_CLIENT_ENGINE_TYPE=\"dataproxy\" prisma generate",
+    "postinstall": "prisma generate",
     "studio": "npx prisma studio",
     "prisma-db-seed": "dotenv-flow -- npx prisma db seed",
     "prisma-db-push": "dotenv-flow -- npx prisma db push"
