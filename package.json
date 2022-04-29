@@ -11,6 +11,7 @@
     "yarn": ">=1.12.x"
   },
   "scripts": {
+    "prisma-db-push": "turbo run prisma-db-push --scope=@content-road/practice-prisma --no-deps",
     "dev:practice-prisma": "turbo run dev --scope=@content-road/practice-prisma --no-deps",
     "dev:docs": "turbo run dev --scope=@nextui-org/docs --no-deps",
     "dev:nextui": "turbo run dev --scope=@nextui-org/react --no-deps",

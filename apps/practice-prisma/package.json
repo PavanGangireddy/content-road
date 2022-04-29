@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "PRISMA_CLIENT_ENGINE_TYPE=\"dataproxy\" prisma generate"
+    "postinstall": "PRISMA_CLIENT_ENGINE_TYPE=\"dataproxy\" prisma generate",
+    "studio": "npx prisma studio",
+    "prisma-db-seed": "dotenv-flow -- npx prisma db seed",
+    "prisma-db-push": "dotenv-flow -- npx prisma db push"
   },
   "dependencies": {
     "@apollo/client": "3.5.10",
@@ -30,6 +33,8 @@
     "@types/node": "^16.3.2",
     "@types/react": "^17.0.14",
     "autoprefixer": "^10.4.1",
+    "dotenv-flow": "3.2.0",
+    "dotenv-flow-cli": "1.0.0",
     "postcss": "^8.4.5",
     "prisma": "3.12.0",
     "react-hook-form": "7.30.0",

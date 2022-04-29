@@ -37,6 +37,9 @@
     },
     "sb": {
       "cache": false
+    },
+    "prisma-db-push": {
+      "cache": false
     }
   }
 }
