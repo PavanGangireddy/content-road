@@ -9,7 +9,7 @@ export const links = [
   },
   {
     category: 'Open Source',
-    description: 'Next Generation ORM TypScript and JavaScrip',
+    description: 'Next Generations RM TypScript and JavaScrip',
     id: '2a3121b2-363b-4a4f-ad26-d6c35b41bade',
     imageUrl: 'https://www.prisma.io/images/og-image.png',
 
